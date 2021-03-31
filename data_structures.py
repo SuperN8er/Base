@@ -37,7 +37,7 @@
 
 # my_list = []  # this is how you specify an empty list
 
-# my_list = ["hello", 999, 3.14]
+my_list = ["hello", 999, 3.14]
 
 # print(my_list[0])
 # # hello
@@ -47,6 +47,12 @@
 # my_list[0] = "goodbye"
 # print(my_list)
 # # ['goodbye', 999, 3.14]
+
+
+my_list.append("piss")
+print(my_list)
+
+
 
 # ==========================================================
 
@@ -95,3 +101,5 @@
 # my_dict["key1"] = "Anyting I want"
 # print(my_dict)
 # # {'key1': 'Anyting I want', 'key2': 999, 'key3': 3.14}
+
+
