@@ -50,8 +50,19 @@ my_list = ["hello", 999, 3.14]
 
 
 my_list.append("piss")
-print(my_list)
+# print(my_list)
+# # ['hello', 999, 3.14, 'piss']
 
+
+# print(my_list.count(999))
+# print(my_list.index(999))
+# print(my_list[1])
+
+
+# print(my_list[my_list.index("piss")])
+index = my_list.index("piss")
+value = my_list[index]
+print(value)
 
 
 # ==========================================================
