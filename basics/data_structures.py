@@ -60,10 +60,10 @@ my_list.append("piss")
 
 
 # print(my_list[my_list.index("piss")])
-index = my_list.index("piss")
-value = my_list[index]
-print(value)
-
+# index = my_list.index("piss")
+# value = my_list[index]
+# print(value)
+# # piss
 
 # ==========================================================
 
